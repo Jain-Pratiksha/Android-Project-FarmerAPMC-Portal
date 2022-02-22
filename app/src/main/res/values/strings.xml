@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FarmerAPMC Portal</string>
+
+    <string name="login_btn">Login</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="or">OR</string>
+    <string name="create_account">Create Account</string>
+</resources>

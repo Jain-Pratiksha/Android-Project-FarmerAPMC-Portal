@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        //for upper profile section
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/green"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user_profile"/>
+
+            <Button
+                android:id="@+id/upload_product_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/profile_image"
+                android:text="Set Profile"></Button>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@id/profile_image"
+                android:fontFamily="@font/poppins"
+                android:includeFontPadding="false"
+                android:text="Pratiksha Jain"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@id/profile_image"
+                android:fontFamily="@font/poppins"
+                android:includeFontPadding="false"
+                android:text="APMC67548"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                />
+
+
+
+        </RelativeLayout>
+
+        //for input
+
+        <TextView
+            android:id="@+id/aadhar_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="false"
+            android:text=" Aadhar Number : 78945632158645"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="false"
+            android:text=" Gender : Female"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="false"
+            android:text=" Age: 20 "
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="false"
+            android:text=" Address : Mumbai, Maharashtra, India"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/apmc_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="false"
+            android:text=" APMC Location : Thane, Maharashtra"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/dashboard_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="65dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
